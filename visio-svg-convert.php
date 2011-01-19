@@ -22,7 +22,7 @@ error_reporting(E_ALL & E_STRICT);
  * Convert SVG as exported by Visio into something that:
  * 1) Can be viewed in a sensible SVG viewer (e.g. Firefox).
  * 2) Doesn't hide arrow heads.
- * 3) Doesn't use a stupidly font size for labels.
+ * 3) Doesn't use a stupidly big font size for labels.
  * @param string $data SVG data.
  * @return string The converted data.
  */
